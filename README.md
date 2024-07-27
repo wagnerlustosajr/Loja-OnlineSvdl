@@ -24,23 +24,23 @@ A Loja Online Svdl é uma plataforma de comércio eletrônico que permite aos us
 
 Para executar este projeto localmente, siga estes passos:
 
- 1.Clone o repositório:
+ 1. Clone o repositório:
 
 git clone https://github.com/wagnerlustosajr/Loja-OnlineSvdl.git
 
- 2.Navegue até a pasta do projeto:
+ 2. Navegue até a pasta do projeto:
 
 cd Loja-OnlineSvdl
 
- 3.Instale as dependências:
+ 3. Instale as dependências:
 
 npm install
 
- 4.Inicie o servidor:
+ 4. Inicie o servidor:
 
 npm start
 
- 5.Abra o navegador e acesse:
+ 5. Abra o navegador e acesse:
 
 http://localhost:3000
 
