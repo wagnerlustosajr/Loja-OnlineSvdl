@@ -12,7 +12,7 @@ A Loja Online Svdl é uma plataforma de comércio eletrônico que permite aos us
 - ExpressJS
 - MongoDB
 
-##Recursos
+## Recursos
 - Início: Página principal com destaque para produtos e promoções.
 - Produtos: Listagem de produtos com filtros e opções de busca.
 - Detalhes do Produto: Página detalhada de cada produto com descrições, avaliações e opções de compra.
@@ -20,7 +20,7 @@ A Loja Online Svdl é uma plataforma de comércio eletrônico que permite aos us
 - Cadastro e Login: Sistema de autenticação de usuários com registro e login.
 - Administração: Painel de administração para gerenciamento de produtos, pedidos e usuários.
 
-##Configuração Local
+## Configuração Local
 
 Para executar este projeto localmente, siga estes passos:
 
@@ -44,7 +44,7 @@ npm start
 
 http://localhost:3000
 
-##Contribuições
+## Contribuições
 
 Sugestões e contribuições são sempre bem-vindas! Sinta-se à vontade para propor melhorias através de Issues ou Pull Requests.
 
