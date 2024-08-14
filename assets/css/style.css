@@ -245,9 +245,10 @@ small{
     border: 2px solid var(--cor-padrão-hover);
 }
 
-.depoimento-icones {
-    color: var(--cor-padrão);
+.depoimento .col-3 i{
+    color: var(--cor-btn-hover);
     align-items: center;
+    font-size: 24px;
 }
 
 .col-3 p{
@@ -395,6 +396,87 @@ ul{
     color: var(--cor-fonte);
 }
 
+/*--detalhes do produto--*/
+
+.ver-produto{
+    margin-top: 40px; 
+}
+
+.ver-produto .col-2 img{
+    width: 100%;
+    padding: 0;
+}
+
+.ver-produto #produtoImg{
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ver-produto .col-2{
+    padding: 20px;
+}
+
+.ver-produto .col-2 h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ver-produto select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid var(--cor-btn-hover);
+}
+
+.ver-produto select:focus{
+    outline: none;
+}
+
+.ver-produto input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid var(--cor-btn-hover);
+}
+
+.ver-produto input:focus{
+    outline: none;
+}
+
+.ver-produto .btn{
+    border: none;
+    background-color: var(--cor-btn-hover);
+    height: 70px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .5s;
+    text-align: center;
+}
+
+.ver-produto .btn:hover{
+    background-color: var(--cor-btn);
+}
+
+.ver-produto p{
+    font-size: 13px;
+}
+
+.img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
 
 /*Responsividade celularr*/
 
@@ -450,6 +532,19 @@ ul{
     }
     .novoMenu nav ul li a{
         color: var(--cor-fonte);
+    }
+
+    .ver-produto .col-2{
+        margin: 20px 0;
+    }
+
+    .ver-produto .row{
+        text-align: left;
+    }
+
+    .ver-produto h1{
+        font-size: 26px;
+        line-height: 26px;
     }
 
 }
